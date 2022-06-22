@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddListActivity"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_back" />
+
+        <TextView
+            android:id="@+id/textdisplay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:text="Back"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <ImageView
+        android:id="@+id/itemimage"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="16dp"
+        android:src="@drawable/ic_action_addphoto" />
+
+    <Button
+        android:id="@+id/btngallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gallery"
+        android:layout_below="@id/itemimage"
+        android:layout_marginLeft="24dp"/>
+    <Button
+        android:id="@+id/btncamera"
+        android:layout_below="@id/itemimage"
+        android:layout_toRightOf="@id/btngallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera"/>
+
+
+    // row name
+    <TextView
+        android:id="@+id/itemname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btngallery"
+        android:background="@color/gray"
+        android:paddingLeft="24dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:layout_marginTop="12dp"
+        android:text="Item Name"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/itemname"
+        android:background="@drawable/custom_input"
+        android:hint="Name"
+        android:paddingLeft="24dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/teal_200"
+        android:textSize="18sp" />
+
+    // row price
+    <TextView
+        android:id="@+id/itemprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputname"
+        android:background="@color/gray"
+        android:paddingLeft="24dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:drawableLeft="@drawable/ic_baseline_account_balance_wallet_24"
+        android:drawablePadding="12dp"
+        android:text="Item Price"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputprice"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/itemprice"
+        android:background="@drawable/custom_input"
+        android:hint="Price"
+        android:inputType="number"
+        android:paddingLeft="24dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/teal_200"
+        android:textSize="18sp" />
+
+    // row description
+    <TextView
+        android:id="@+id/itemdesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputprice"
+        android:background="@color/gray"
+        android:paddingLeft="24dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:drawableLeft="@drawable/ic_baseline_description_24"
+        android:drawablePadding="12dp"
+        android:text="Item Descrption"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputdesc"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@+id/itemdesc"
+        android:background="@drawable/custom_input"
+        android:gravity="top"
+        android:hint="Descrption"
+        android:inputType="textMultiLine"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/teal_200"
+        android:textSize="18sp" />
+
+    // button save
+
+    <Button
+        android:id="@+id/btnsave"
+        android:layout_width="92dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/inputdesc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btn_save"
+        android:backgroundTint="@color/black"
+        android:text="Save"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

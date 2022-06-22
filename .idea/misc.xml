@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Mobile/Wishnote/app/src/main/res/drawable-anydpi/ic_action_addphoto.xml" value="0.176" />
+        <entry key="..\:/Mobile/Wishnote/app/src/main/res/drawable-anydpi/ic_action_back.xml" value="0.176" />
+        <entry key="..\:/Mobile/Wishnote/app/src/main/res/drawable-anydpi/ic_action_delete.xml" value="0.1" />
+        <entry key="..\:/Mobile/Wishnote/app/src/main/res/drawable-anydpi/ic_action_image.xml" value="0.176" />
+        <entry key="..\:/Mobile/Wishnote/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.132" />
+        <entry key="..\:/Mobile/Wishnote/app/src/main/res/drawable/background_dialog.xml" value="0.1305" />
+        <entry key="..\:/Mobile/Wishnote/app/src/main/res/drawable/btn_save.xml" value="0.176" />
+        <entry key="..\:/Mobile/Wishnote/app/src/main/res/drawable/custom_input.xml" value="0.176" />
+        <entry key="..\:/Mobile/Wishnote/app/src/main/res/drawable/ic_baseline_account_balance_wallet_24.xml" value="0.176" />
+        <entry key="..\:/Mobile/Wishnote/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.176" />
+        <entry key="..\:/Mobile/Wishnote/app/src/main/res/drawable/ic_baseline_add_photo.xml" value="0.132" />
+        <entry key="..\:/Mobile/Wishnote/app/src/main/res/drawable/ic_baseline_description_24.xml" value="0.176" />
+        <entry key="..\:/Mobile/Wishnote/app/src/main/res/drawable/ic_launcher_background.xml" value="0.132" />
+        <entry key="..\:/Mobile/Wishnote/app/src/main/res/layout/activity_add_list.xml" value="0.25" />
+        <entry key="..\:/Mobile/Wishnote/app/src/main/res/layout/activity_main.xml" value="0.209375" />
+        <entry key="..\:/Mobile/Wishnote/app/src/main/res/layout/custom_dialog.xml" value="0.2413793103448276" />
+        <entry key="..\:/Mobile/Wishnote/app/src/main/res/layout/item_data.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
